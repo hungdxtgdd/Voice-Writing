@@ -1,74 +1,82 @@
 # 🎙️ V.O.I.C.E. Writing Framework
 
-> **A Human-AI Collaborative Framework to Beat the "Average of the Internet" and Craft High-Impact, Irreplaceable Content.**
+> **A Human-AI Collaborative Writing Framework | Bộ Khung Viết Cộng Tác Người - AI Chuẩn Mực**  
+> *Beat the "Average of the Internet" & Craft Irreplaceable Content | Vượt qua "Mẫu số chung nhạt nhẽo" và tạo tác phẩm độc bản.*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![AI Compatibility](https://img.shields.io/badge/AI-Claude%20%7C%20ChatGPT%20%7C%20Gemini%20%7C%20Cursor-success.svg)](#compatibility)
-
----
-
-## 💡 The Core Problem: Why AI Writing Feels Hollow
-
-Large Language Models (LLMs) operate on next-token prediction. Without active constraints, AI text naturally converges toward the **statistical average of the internet**—smooth, grammatically correct, but generic, sterile, and stripped of cultural and personal nuances (*"AI Accent"* / *Cultural Homogenization* - Cornell University, 2025).
-
-### ⚔️ The Philosophy: Move 37 vs. Move 78
-- **Move 37 (AlphaGo, 2016):** The machine's cold, statistical calculation that broke conventional rules.
-- **Move 78 (Lee Sedol, 2016):** The human's intuitive, audacious masterpiece that broke the machine's certainty.
-
-**V.O.I.C.E.** does not treat AI as a "ghostwriter", but as an **editorial sparring team**. The human writer retains full ownership of taste, emotion, and the final *Move 78*.
+[![GitHub Repo](https://img.shields.io/badge/GitHub-hungdxtgdd%2FVoice--Writing-blue?logo=github)](https://github.com/hungdxtgdd/Voice-Writing)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![AI Compatible](https://img.shields.io/badge/AI-ChatGPT%20%7C%20Claude%20%7C%20Gemini%20%7C%20Cursor-orange.svg)](#-quickstart--hướng-dẫn-dùng-nhanh)
 
 ---
 
-## 🏛️ The 5 Pillars of V.O.I.C.E.
+## 💡 The Core Problem | Căn Nguyên Cốt Lõi
+
+### 🇬🇧 English
+Large Language Models (LLMs) operate on next-token prediction. Without constraints, AI writing inevitably converges toward **"The Average of the Internet"**—grammatically flawless yet sterile and generic (*"AI Accent"*). A 2025 Cornell University study (Dhruv Agarwal et al.) proves that unguided AI homogenizes writing toward Western norms and erodes authentic cultural nuance.
+
+### 🇻🇳 Tiếng Việt
+Mô hình ngôn ngữ lớn (LLM) dựa trên xác suất đoán từ tiếp theo (*next-token prediction*). Nếu không có khuôn khổ định hướng, AI luôn hội tụ về **"Mẫu số chung của Internet"**—trơn tru nhưng sáo rỗng (*"AI Accent"*). Nghiên cứu của ĐH Cornell (2025) chỉ ra rằng AI làm đồng hóa văn hóa (*Cultural Homogenization*), xóa nhòa bản sắc cá nhân và văn hóa bản địa.
+
+### ⚔️ The Philosophy | Triết Lý: Move 37 vs. Move 78
+- **Move 37 (AlphaGo, 2016):** The machine's statistical calculation breaking human patterns.
+- **Move 78 (Lee Sedol, 2016):** The human's intuitive masterpiece that broke the machine's certainty.
+> *V.O.I.C.E. does not use AI to ghostwrite. It turns AI into an editorial sparring team while preserving your human "Move 78".*
+
+---
+
+## 🏛️ The 5 Pillars | 5 Trụ Cột V.O.I.C.E.
 
 ```
-       5 AI FLAWS                               V.O.I.C.E. FILTER
-┌───────────────────────────────┐        ┌────────────────────────────────┐
-│ 1. Confidently Drunk (Lies)   │  ───>  │ V - VERIFIED (Ground Truth)    │
-│ 2. A Broken Record (Clichés)  │  ───>  │ O - OWNED (Unique Fingerprint) │
-│ 3. Smart & Empty (Truisms)    │  ───>  │ I - INSIGHTFUL (So What?)      │
-│ 4. Lost in Noise (Fluff)      │  ───>  │ C - CLEAR (9-Year-Old Test)    │
-│ 5. Boring (Flat Tone)         │  ───>  │ E - ENGAGING (Human Taste/Move 78)
-└───────────────────────────────┘        └────────────────────────────────┘
+       5 AI FLAWS / CĂN BỆNH AI                 V.O.I.C.E. FILTER / BỘ LỌC
+┌─────────────────────────────────────┐     ┌─────────────────────────────────────┐
+│ 1. Confidently Drunk (Bịa đặt)      │ ──> │ V - VERIFIED (Kiểm chứng nguồn)    │
+│ 2. A Broken Record (Rập khuôn)      │ ──> │ O - OWNED (Dấu ấn độc bản)          │
+│ 3. Smart & Empty (Sáo rỗng)         │ ──> │ I - INSIGHTFUL (Sâu sắc / So what)  │
+│ 4. Lost in Noise (Rườm rà)          │ ──> │ C - CLEAR (Mạch lạc / 9 tuổi hiểu)  │
+│ 5. Boring (Thiếu lực hút)           │ ──> │ E - ENGAGING (Nước cờ 78 / Gu riêng)│
+└─────────────────────────────────────┘     └─────────────────────────────────────┘
 ```
 
-| Pillar | AI Anti-Pattern | Transformation & Action |
+| Pillar | AI Flaw | Transformation (EN / VI) |
 | :--- | :--- | :--- |
-| **V – Verified** | Hallucinations, fake citations | Triple-tagging (`[Verified]`, `[Unverified]`, `[Disputed]`) + primary sources |
-| **O – Owned** | Western homogenization, generic tone | **Reverse Interview**: AI extracts 5 raw lived experiences before writing |
-| **I – Insightful** | Superficial truisms | **3-Sentence Contrast Formula** & "Intelligent Skeptic" critique |
-| **C – Clear** | Buzzword soup, passive voice | **9-Year-Old Test**: conversational style, trim ≥ 30% filler words |
-| **E – Engaging** | Monotonous rhythm, no stakes | **Move 78**: Human adds tension, pacing, curiosity, and authentic voice |
+| **V – Verified** | Hallucinations / Ảo giác | **Triple-Tagging Table**: `[Verified]`, `[Unverified]`, `[Disputed]` + primary sources |
+| **O – Owned** | Generic clichés / Rập khuôn | **Reverse Interview**: AI interviews author for 3-5 real lived experiences first |
+| **I – Insightful** | Smart & Empty / Sáo rỗng | **3-Sentence Contrast Formula** + "Intelligent Skeptic" critique |
+| **C – Clear** | Noise & Jargon / Dài dòng | **9-Year-Old Test**: Conversational prose, trim ≥ 30% fluff |
+| **E – Engaging** | Boring / Thiếu cảm xúc | **Move 78 Checklist**: Human rhythm, stakes, tension, and unique taste |
 
 ---
 
-## 🚀 Quickstart: How to Use
+## 🚀 Quickstart | Hướng Dẫn Dùng Nhanh
 
-### 1. Web Chat (ChatGPT, Claude.ai, Gemini)
-Copy the Master Prompt in [`prompts/00-master-prompt.md`](prompts/00-master-prompt.md) and paste it into your chat.
+### Option 1: Web Chat (ChatGPT, Claude.ai, Gemini Web)
+1. Copy the Master Prompt from [`prompts/00-master-prompt.md`](prompts/00-master-prompt.md).
+2. Paste into any chat window with your topic.
+3. Let AI interview you (Phase O) before drafting!
 
-### 2. AI IDEs & CLI (Cursor, Antigravity, Claude Code, Windsurf)
-Add [`SKILL.md`](SKILL.md) to your workspace's skill/rule directory:
-- **Antigravity / Gemini:** `.agents/skills/voice-writing/SKILL.md`
-- **Claude Code:** Copy to `.claude/skills/voice-writing.md`
-- **Cursor:** Reference in `.cursorrules` or `.cursor/rules/`
+### Option 2: AI IDEs & CLI (Cursor, Antigravity, Claude Code, Windsurf)
+Load [`SKILL.md`](SKILL.md) and [`AGENTS.md`](AGENTS.md) into your workspace:
+- **Antigravity / Gemini:** Put into `.agents/skills/voice-writing/SKILL.md`
+- **Claude Code:** Link in `.claude/skills/` or `CLAUDE.md`
+- **Cursor / Windsurf:** Add reference to `.cursorrules` or `.windsurfrules`
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Structure | Cấu Trúc Thư Mục
 
-- [`SKILL.md`](SKILL.md): Standardized Agent Skill definition.
-- [`AGENTS.md`](AGENTS.md): Universal system instruction for AI assistants.
-- [`prompts/`](prompts/): Individual modular prompt templates for each stage.
-  - `00-master-prompt.md`: One-shot prompt for Web Chat users.
-  - `01-reverse-interview-owned.md`: Phase O extraction.
-  - `02-counter-consensus-insightful.md`: Phase I sparring.
-  - `03-clarity-conciseness-clear.md`: Phase C simplification.
-  - `04-fact-checking-verified.md`: Phase V verification.
-  - `05-human-polish-engaging.md`: Phase E human touch checklist.
-- [`templates/article-workflow-template.md`](templates/article-workflow-template.md): Draft workbook template.
+- [`SKILL.md`](SKILL.md): Standardized Agent Skill specification (YAML frontmatter).
+- [`AGENTS.md`](AGENTS.md) / [`CLAUDE.md`](CLAUDE.md): Universal system instructions.
+- [`prompts/`](prompts/): Modular prompt templates for each stage:
+  - [`00-master-prompt.md`](prompts/00-master-prompt.md): All-in-one Web Chat prompt.
+  - [`01-reverse-interview-owned.md`](prompts/01-reverse-interview-owned.md): Phase O (Reverse Interview).
+  - [`02-counter-consensus-insightful.md`](prompts/02-counter-consensus-insightful.md): Phase I (Contrast Formula).
+  - [`03-clarity-conciseness-clear.md`](prompts/03-clarity-conciseness-clear.md): Phase C (Lean Drafting).
+  - [`04-fact-checking-verified.md`](prompts/04-fact-checking-verified.md): Phase V (Fact-Checking Table).
+  - [`05-human-polish-engaging.md`](prompts/05-human-polish-engaging.md): Phase E (Move 78 Polish).
+- [`templates/article-workflow-template.md`](templates/article-workflow-template.md): Step-by-step article workbook.
 
 ---
 
 ## 📄 License
-MIT License. Created for writers, researchers, and engineers who care about authentic voice in the age of AI.
+
+Distributed under the [MIT License](LICENSE).
